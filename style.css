@@ -1,19 +1,31 @@
+html, body {
+   height: 100%;
+  }
+
 body {
+    background: #444;
+    padding: 30px 50px;
+    margin: 0;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 3rem;
-    
-}
+    justify-content: center;
+  }
 
-table {
+
+button {
+    padding: 0;
+    outline: 0;
+  }
+
+  .board {
+    border: 6px, #808080;
+    width: 332px;
+    height: 332px;
     display: flex;
-    padding-top: 5%;
-    
-}
+    flex-wrap: wrap;
+    }
 
-td {
-    background-color: rgb(173, 173, 173);
-    min-width: 3em;
-    height: 3rem;
-}
+    .space {
+        flex: 0 0 32px;
+        height: 32px;
+       }
