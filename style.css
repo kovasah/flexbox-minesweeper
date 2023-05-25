@@ -15,17 +15,26 @@ body {
 button {
     padding: 0;
     outline: 0;
+    background-color: gray;
   }
 
-  .board {
-    border: 6px, #808080;
+.board {
+    margin: 0;
+    padding: 0;
     width: 332px;
     height: 332px;
     display: flex;
     flex-wrap: wrap;
+    background-color: gray;
+    border-radius: 5px;
     }
 
-    .space {
+.space {
         flex: 0 0 32px;
         height: 32px;
+        border: gray, solid;
        }
+
+img {
+    width: 28px;
+}
